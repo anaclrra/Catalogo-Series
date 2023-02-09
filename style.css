@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #270f0f;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  }
+
+#container2 {
+    margin-left: 550px;
+    margin-top: 15vh;
+    height: max-content;
+    width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, 
+                rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+@media screen and (max-width: 650px) {
+    #container2 {
+        margin-left: 180px;
+        position: relative;
+    }   
+}
+
+@media screen and (min-width: 350px) and (max-width: 563px){
+    #container2 {
+        margin-left: 250px;
+
+    }
+}
+
+@media screen and (max-width: 563px){
+    #container2 {
+        margin-left: 50px;
+
+    }
+}
+
+#input-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 14px;
+}
+
+  
+.inputs {
+    margin: 10px;
+    padding: 3px;
+    border: none;
+    background: none;
+    color: #ffff;
+    border-bottom: 1px solid #c8c8c8;
+    outline: none;
+
+}
+
+.inputs:hover{
+    transition: ease-in 0.4s;
+    border-bottom: 1px solid #800000;
+}
+
+
+  
+#botao {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: #800000;
+}
+  
+#botao:hover {
+    color: #800000;
+    background-color: white;
+}
+  
+#box-img {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+  
+#box-img img {
+    max-height: 350px;
+    max-width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+}
+ 
+#box-img img:hover {
+    transition: ease-in 0.5s;
+    max-height: 360px;
+    max-width: 260px;
+}
+
+#box-img p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
